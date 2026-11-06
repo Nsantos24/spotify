@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.destaque {
+    background-image: url("./img/banner.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding: 30px;
+    border-radius: 15px;
+    color:white;
+}
+
+.banner img{
+    width: 150px;
+}
+
+.destaque button{
+    background-color: #1ED760;
+}
