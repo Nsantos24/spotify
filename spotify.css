@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+
+body{
+    background-color: 	#080B0A;
+}
+
 .destaque {
     background-image: url("./img/banner.avif");
     background-size: cover;
@@ -12,12 +17,171 @@
     padding: 30px;
     border-radius: 15px;
     color:white;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+p{
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
 }
 
 .banner img{
     width: 150px;
+    margin-bottom: 40px;
 }
 
 .destaque button{
     background-color: #1ED760;
+    border-radius: 20px;
+    width: 200px;
+    height: 36px;
+    font-size: 18px;
+    margin-top: 30px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 700;
+   
 }
+
+
+
+.albuns {
+    background-color: #101713;
+    padding: 35px;
+    margin: 20px 25px;
+    border-radius: 15px;
+    
+}
+
+aside {
+    background-color: #101713;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    
+    
+}
+.cards-albuns{
+    text-align: center;
+    margin-bottom: 60px;
+
+
+}
+
+.albuns h1 {
+    color: white;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.albuns figure {
+    background-color: #19231D;
+    width: 190px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+  
+}
+
+.albuns figure img {
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+}
+
+.albuns figcaption {
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.albuns .sub {
+    color: #A7A7A7;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+ main article {
+    width: 190px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+main article img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+main{
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+footer img{
+    max-width: 100px;
+    width: 100%;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    margin-top: 100px;
+}
+
+.cop{
+    text-align: center;
+    color: #A7A7A7;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.artistas{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-left: 50px; 
+   margin-top: 60px;
+margin-bottom: 30px;
+}
+
+main article h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    width: auto;
+    color: white;
+    text-align: center;
+  
+}
+
+.albuns h1{
+        font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-left: 50px;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
